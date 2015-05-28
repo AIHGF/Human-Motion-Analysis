@@ -6,9 +6,10 @@ Firmware:
 Features Timer-interrupt Generation, data retrieval on interrupt and formatted data transfer.
 
 Software:
+
 Data Acquisition - Raw sensor data, evenly sampled at 25 Hz, is retrieved using a microcontroller (Arduino, for example) and accessed over a virtual COM port using MATLAB. The data retrieved has six components - AX, AY, AZ, GZ, GY and GZ - corresponding to accelerometer and gyroscope data of each axis, using the Invensense MPU-6050 or the ADXL-335. In the case of deploying wireless sensor nodes (RFduino, for example), a seventh component - RSSI - Received Signal Strength Indicator can be added, which is, however, not exceptionally helpful in recognizing human motion per se.
 
-Noise Removal - A simple three-element median filter is used for cleaning raw data.
+Noise Removal - A simple three-element median filter is used for cleaning raw data. A potential update would use Runge-Kutta method instead.
 
 Feature Extraction - 
 A moving window of 10 samples for each of the six data components is synthesized with a 90% overlap (10% replacement) policy. Features are extracted from this window.
