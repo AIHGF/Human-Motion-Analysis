@@ -1,0 +1,23 @@
+%% References
+
+% Human Activity Recognition: Using Wearable Sensors and Smartphones - Miguel A. Labrador, Oscar D. Lara Yejas
+% (http://www.crcpress.com/product/isbn/9781466588271); PDF eBook - International Standard Book Number-13: 978-1-4665-8828-8
+% [Feature Extraction - Time]
+
+% SpectralCentroid.m - Spectral Centroid
+% (http://in.mathworks.com/matlabcentral/fileexchange/28826-silence-removal-in-speech-signals/content/SpectralCentroid.m)
+
+% melfcc.m - Mel Frequency Cepstral Coefficients
+% (http://labrosa.ee.columbia.edu/matlab/rastamat/melfcc.m)
+
+% Classifier (Support Vector Machine) software framework - libSVM-3.20 or later
+% (https://github.com/cjlin1/libsvm)
+
+% Fitness Activity Recognition - Gymneus Sports Technology Design, Wien, Österreich
+% TIC Projects, January - May 2014 (http://www.scribd.com/doc/221775440/)
+% [Feature Extraction - Frequency]
+
+% Safety Alert System
+% (https://github.com/shefali92/Safety-Alert-System)
+% Mel Frequency Cepstral Coefficients (https://github.com/shefali92/Safety-Alert-System/blob/master/src/com/example/uitesting/computations/MFCC.java)
+% [Feature Extraction - Quefrency]
