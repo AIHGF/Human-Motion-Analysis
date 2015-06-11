@@ -172,16 +172,7 @@ cellrange = sprintf('A1:J%d', object);
 tftxls = xlsread(filename, xlsheet, cellrange);
 
 % Format training data
-tf = zeros([9 object]);
-tf(1,:) = tftxls(:,1);
-tf(2,:) = tftxls(:,2);
-tf(3,:) = tftxls(:,3);
-tf(4,:) = tftxls(:,4);
-tf(5,:) = tftxls(:,5);
-tf(6,:) = tftxls(:,6);
-tf(7,:) = tftxls(:,7);
-tf(8,:) = tftxls(:,8);
-tf(9,:) = tftxls(:,9);
+tf = tftxls(:,1:9);
 t = tftxls(:,10);
 tl = transpose(t);
 
